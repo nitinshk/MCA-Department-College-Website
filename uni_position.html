@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="image2.css">
+    <link rel="stylesheet" href="lightbox.css">
+    
+  <link rel="stylesheet" href="mai_css.css">
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+    .mar{
+        paddin\ 15PX;
+        
+    }
+    .div1{  
+        margin-bottom:20px;
+        background-color:#14141f;
+       text-align: center;
+        width:470px;
+        color:white;
+        font-size:30px;
+        margin-left: 30%;
+        paddin\10px;
+        font-family: Arial, sans-serif;
+    }
+    
+    
+    .gradients-border {
+  --border-width: 3px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:530px;
+  height:65px;
+  font-family: Lato, sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: black;
+  background:silver;
+  border-radius: var(--border-width);
+  margin-left: 30%;
+  margin-bottom: 20px;
+
+}
+.gradients-border::after {
+  position: absolute;
+  content: "";
+  top: calc(-1 * var(--border-width));
+  left: calc(-1 * var(--border-width));
+  z-index: -1;
+  width: calc(100% + var(--border-width) * 2);
+  height: calc(100% + var(--border-width) * 2);
+  background: linear-gradient(60deg, #5f86f2, #b3b300, darkslategray, #4d6600, #f2cb5f, #e5aa70, #ffff99, #eae0c8);
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 4s alternate infinite;
+}          
+.gradient-border {
+  --border-width: 3px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:530px;
+  height:65px;
+  font-family: Lato, sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: black;
+  background:#FFD700;
+  border-radius: var(--border-width);
+  margin-left: 30%;
+  margin-bottom: 20px;
+
+}
+.gradient-border::after {
+  position: absolute;
+  content: "";
+  top: calc(-1 * var(--border-width));
+  left: calc(-1 * var(--border-width));
+  z-index: -1;
+  width: calc(100% + var(--border-width) * 2);
+  height: calc(100% + var(--border-width) * 2);
+  background: linear-gradient(60deg, #5f86f2, #b3b300, darkslategray, #4d6600, #f2cb5f, #e5aa70, #ffff99, #eae0c8);
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 4s alternate infinite;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+            </style>
+  </head>
+  <body>
+ <!-- header part-->
+	
+	<header>
+        <!-- div one  top bar  class d1 and inner use classes d11 & d22-->        
+                <div class="d1">
+                <h3> UGC Enlisted CPE (College with Potential For Excellence) NAAC Accredited B+ </h3>
+                    <div class="d11">
+                        <input type="button" onclick="#" value="Contact Us" class="d12">
+                        <input type="button" onclick="#" value="How To Reach" class="d12">
+                        <input type="button" onclick="#" value="Search" class="d12">
+                    </div>
+                </div>
+        <!-- div second  logo bar  class d2 -->	
+                <div class="d2">
+                    <a href="\sarita_Final\main_file\index.html"><img src="\sarita_Final\main_file\logoclg.png" alt="#"></a>
+                </div>  
+        <!-- div second  nav bar  class d3 -->		
+                <div class="d3">
+                    <nav>
+                        <ul>
+            <!-- Home page -->			
+                            <li><a href="\sarita_Final\main_file\index.html">HOME</a></li>
+            <!-- About depertmet page & inner class dp -->
+                            <li><a href="#">ABOUT DEPARTMENT</a>
+                            <div class="dp">
+                            <ul>
+                              <li> <a href="\sarita_Final\main_file\files\intro_mca.html">Intro</a></li>
+                                <li> <a href="\sarita_Final\main_file\files\mca_admissions.html">Admission</a></li>
+                                <li><a href="\sarita_Final\main_file\files\mca_syllabus.html">Syllabus</a> </li>
+                                <li><a href="\sarita_Final\main_file\files\fees_structure.docx">Fess structure</a> </li>
+                            </ul>
+                            </div>
+                            </li>
+                            
+            <!-- Facality page -->
+                            <li><a href="\sarita_Final\main_file\files\faculity.html">FACULTY</a></li>
+                            
+            <!-- INDUSTRIAL VISIT	 -->
+            <li><a href="#">INDUSTRIAL VISIT</a>    <div class="dp">
+              <ul>
+                  <li><a href="#">2016</a>
+                      <div class="l21">
+                          <ul>
+                              
+                              <li><a href="\sarita_Final\indst_2016\photogallery_16.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                  <li><a href="#">2018</a>
+                      <div class="l18">
+                          <ul>
+                              <li><a href="\sarita_Final\indst_2018\report_2018.pdf">Program's Report</a></li>
+                              <li><a href="\sarita_Final\indst_2018\photogallery_18.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                  <li><a href="#">2019</a>
+                      <div class="l19">
+                          <ul>
+                              
+                              <li><a href="\sarita_Final\indst_2019\photogallery_19.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+<li><a href="#">2020</a>
+                      <div class="l20">
+                          <ul>
+                              
+                              <li><a href="\sarita_Final\indst_2020\photogallery_20.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                      <li><a href="#">2021</a>
+                      <div class="l21">
+                          <ul>
+                              
+                              <li><a href="\sarita_Final\indst_2021\photogallery_21.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                      
+                  <li><a href="#">2022</a>
+                      <div class="l22">
+                          <ul>
+                              
+                              <li><a href="\sarita_Final\indst_2022\photogallery_22.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                      <li><a href="#">2023</a>
+                          <div class="l21">
+                              <ul>
+                                  
+                                  <li><a href="\sarita_Final\indst_2023\photogallery_23.html">Image Gallery</a></li>
+                                  </ul>
+  
+                          </div></li>
+              </ul>
+              </div>
+              </li>
+          <!-- oriantation program -->
+                          
+          <li><a href="#">ORIENTATION PROGRAM</a>
+              <div class="dp">
+              <ul>
+                
+                  <li><a href="#">2018</a>
+                      <div class="l18">
+                          <ul>
+                              
+                              <li><a href="\sarita_Final\orin_2018\orintation_2018.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                      <li><a href="#">2019</a>
+                      <div class="l19">
+                          <ul>
+                              
+                              <li><a href="/sarita_Final/orin_2019/orrientation_19.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                  <li><a href="#">2020</a>
+                      <div class="l20">
+                          <ul>
+                              
+                              <li><a href="\sarita_Final\orin_2020\orrientation20.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                  <li><a href="#">2021</a>
+                      <div class="l21">
+                          <ul>
+                              
+                              <li><a href="/sarita_Final/orin_2021/orrientation_21.html">Image Gallery</a></li>
+                              </ul>
+
+                      </div></li>
+                  <li><a href="#">2022</a>
+                      <div class="l22">
+                          <ul>
+                              <li><a href="\sarita_Final\orin_2022\report_22.pdf">Program's Report</a></li>
+                              <li><a href="\sarita_Final\orin_2022\orrientation22.html">Image Gallery</a></li>
+                              </ul>
+
+                          
+                      </div></li>
+                      <li><a href="#">2023</a>
+                          <div class="l22">
+                              <ul>
+                                  <li><a href="\sarita_Final\orin_2023\report_23.pdf">Program's Report</a></li>
+                                  <li><a href="\sarita_Final\orin_2023\orintation_2023.html">Image Gallery</a></li>
+                                  </ul>
+  
+                          </div></li>
+                      
+              </ul>
+              </div>
+              </li>
+          <!-- WORKSHOP SKILL					 -->
+                          <li><a href="#">WORKSHOPS</a>
+                              <div class="dp">
+                              <ul>
+                              <li><a href="#">2021</a>
+                                  <div class="l21">
+                                      <ul>
+                                          <li><a href="\sarita_Final\work_2021\workshop_report_2021.pdf">Program's Report</a></li>
+                                          <li><a href="\sarita_Final\work_2021\photo_work_21.html">Image Gallery</a></li>
+                                          </ul>
+          
+                                  </div></li>
+                              <li><a href="#">2022</a>
+                                  <div class="l22">
+                                      <ul>
+                                          <li><a href="\sarita_Final\work_2022\report_22.pdf">Program's Report</a></li>
+                                          <li><a href="\sarita_Final\work_2022\photo_work_22.html">Image Gallery</a></li>
+                                          </ul>
+          
+                                  </div></li>
+                          </ul>
+                          </div>
+                          </li>
+            <!-- WORKSHOP SKILL					 -->
+                            <li><a href="#">WORKSHOPS</a>
+                                <div class="dp">
+                                <ul>
+                                <li><a href="#">2021</a>
+                                    <div class="l21">
+                                        <ul>
+                                            <li><a href="\sarita_Final\work_2021\workshop_report_2021.pdf">Program's Report</a></li>
+                                            <li><a href="\sarita_Final\work_2021\photo_work_21.html">Image Gallery</a></li>
+                                            </ul>
+            
+                                    </div></li>
+                                <li><a href="#">2022</a>
+                                    <div class="l22">
+                                        <ul>
+                                            <li><a href="\sarita_Final\work_2022\report_22.pdf">Program's Report</a></li>
+                                            <li><a href="\sarita_Final\work_2022\photo_work_22.html">Image Gallery</a></li>
+                                            </ul>
+            
+                                    </div></li>
+                            </ul>
+                            </div>
+                            </li>
+            <!-- Other activities -->
+                            <li><a href="\sarita_Final\other activities\cultural\other_act_photo.html">OTHER ACTIVITIES</a>
+                               
+                            </li>
+            <!-- Placments -->				
+                            <li><a href="\sarita_Final\Placement\placements gallery.html">PLACEMENTS</a></li>
+            <!-- UNIVERSITY -->				
+                            <li><a href="\sarita_Final\univ_positions\uni_position.html">UNIVERSITY RESULT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                </header>
+  <div class="uni">
+    <div class="gradient-border">GOLD  MEDALIST</div>
+<ul class="grid">
+  <li>
+    <figure class="grid__figure">
+      <img src="ukf.jfif" alt="">
+      <span style="">Joyti Sharma(2012-15)</span>
+    </figure>
+  </li>
+  <li>
+    <figure class="grid__figure">
+      <img src="Reeti jaswal (2).jpg" alt="">
+      <span>Reeti Jaswal(2014-17)</span>
+    </figure>
+  </li>
+  <li>
+    <figure class="grid__figure">
+      <img src="ukf.jfif" alt="">
+      <span>Priyanka Jaswal(2015-18)</span>
+    </figure>
+  </li>
+  <li>
+    <figure class="grid__figure">
+      <img src="jashan.png" alt="">
+      <span style="">Jashan(2020-22)</span>
+    </figure>
+  </li>
+  
+ 
+</ul>
+</div>
+<div class="uni">
+  <div class="gradients-border">SILVER  MEDALIST</div>
+<ul class="grid">
+  
+  <li>
+    <figure class="grid__figure">
+      <img src="ukf.jfif" alt="">
+      <span>Renu Bala(2012-15)</span>
+    </figure>
+  </li>
+  <li>
+    <figure class="grid__figure">
+      <img src="ukm.jfif" alt="">
+      <span>Nikhil Jaswal(2013-16)</span>
+    </figure>
+  </li>
+  <li>
+    <figure class="grid__figure">
+      <img src="shilpa (2).JPG" alt="">
+      <span>Shilpa Kumari(2015-18)</span>
+    </figure>
+  </li>
+  <li>
+    <figure class="grid__figure">
+      <img src="simran.png" alt="">
+      <span>Simran Kaur(2020-22)</span>
+    </figure>
+  </li>
+  
+    </ul>
+    </div>
+    <div class="uni">
+      <div class="div1">UNIVERSITY  POSITIONS</div>
+    <ul class="grid">
+
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Anjali Devi 2nd position(2016-19)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Monika 3rd position(2016-19)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukm.jfif" alt="">
+          <span>Mukesh 3rd position(2016-19)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="prachi (2).jpg" alt="">
+          <span>Prachi Sharma 4th position(2016-19)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Divya Bharti 5th position(2016-19)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Shiksha Thakur 6th position(2016-19)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Priyanka Kumari 7th position(2016-19)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Amanpreet Kaur 8th position(2016-19)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Arti Sharma 10th position(2016-19)</span>
+        </figure>
+      </li>
+      
+      <li>
+        <figure class="grid__figure">
+          <img src="darshan.jpg" alt="">
+          <span>Shiv Darshan Singh 3rd position(2017-20)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Gurpreet Kaur 4thh position(2017-20)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="navjot (2).JPG" alt="">
+          <span>Navjot Kaur 6th position(2017-20)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="priyankakumari (2).JPG" alt="">
+          <span>Priyanka 8th position(2017-20)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="prabjot (2).JPG" alt="">
+          <span>Prabjot Kaur 10th position(2017-2020)</span>
+        </figure>
+      </li>
+      <li>
+        <figure class="grid__figure">
+          <img src="ukf.jfif" alt="">
+          <span>Gurpreet Kaur 4thh position(2017-20)</span>
+        </figure>
+      </li>
+      
+        <li>
+          <figure class="grid__figure">
+            <img src="reena.jpg" alt="">
+            <span>Reena Kumari 61h position(2018-21)</span>
+          </figure>
+        </li>
+        <li>
+          <figure class="grid__figure">
+            <img src="aina (2).JPG" alt="">
+            <span>Aina Kumari 7th position(2018-21)</span>
+          </figure>
+        </li>
+    <li>
+      <figure class="grid__figure">
+        <img src="reema devi.jpg" alt="">
+        <span>Reema Devi 7th position(2018-21)</span>
+      </figure>
+    </li>
+    <li>
+      <figure class="grid__figure">
+        <img src="razeenabegum (2).jpg" alt="">
+        <span >Razeena Begum 8th position(2018-21)</span>
+      </figure>
+    </li>
+    <li>
+      <figure class="grid__figure">
+        <img src="akushchaudhary.jpg" alt="">
+        <span>Ankush Chaudhary 3rd position(2019-22)</span>
+      </figure>
+    </li>
+   </ul>
+</div>
+<div class="mar">
+  <div class="div1">UNIVERSITY CONVOCATION </div>
+<div class="container">
+  <div class="gallery">
+     
+      <a href="1 (2).jpg" data-lightbox="models" data-title="caption1">
+      <img src="1 (2).jpg">
+  </a>
+      <a href="1 (3).jpg" data-lightbox="models" data-title="caption1">
+      <img src="1 (3).jpg">
+  </a>
+      <a href="1 (5).jpg" data-lightbox="models" data-title="caption1">
+      <img src="1 (5).jpg" >
+  </a>
+      <a href="1 (4).jpg" data-lightbox="models" data-title="caption1">
+      <img src="1 (4).jpg" >
+  </a>
+      <a href="1 (6).jpg" data-lightbox="models" data-title="caption1">
+      <img src="1 (6).jpg">
+  </a>
+  <a href="c1 (2).jpg" data-lightbox="models" data-title="caption1">
+    <img src="c1 (2).jpg">
+</a>
+<a href="c2 (2).jpg" data-lightbox="models" data-title="caption1">
+  <img src="c2 (2).jpg">
+</a>
+<a href="c3 (2).jpg" data-lightbox="models" data-title="caption1">
+  <img src="c3 (2).jpg">
+</a>
+  
+  </div>
+</div>
+</div>
+
+<script src="lightbox-plus-jquery.js"></script>
+
+</body>
+</html>
