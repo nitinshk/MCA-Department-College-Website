@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MCA Admission Form</title>
+    <style>
+      /* styles for the form box and centering */
+      #form-box {
+        border: 2px solid #ccc;
+        padding: 20px;
+        
+        margin: auto;
+        width: 70%;
+      }
+
+      /* styles for rounded corners on text input boxes */
+      input[type="text"] {
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        
+      }
+      input[type="submit"] {
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin-left:400px;
+        margin-bottom: 10px;
+      }
+      input[type="email"] ,input[type="date"],textarea{
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+      fieldset {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    
+  }
+
+  legend {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 2px #ccc;
+    margin-bottom: 10px;
+    
+  }
+  .label1 {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  text-align: right;
+  margin-right: 10px;
+}
+    </style>
+  </head>
+  <body>
+    <div style="text-align:center">
+      <h1 >MCA (Master of Computer Application)  Admission Form</h1>
+    </div>
+    <div id="form-box">
+    
+      <fieldset>
+      <legend >Eligibility Criteria(MCA 2 years)</legend>
+      <div style="text-align:left;">
+      <p>Candidates intersted to take admission in MCA for the session 2023-24 can fill this form.</p>
+      <p><b>Following are the eligibility criteria ( As per AICTE APH-(2023-24) to take the admission:</b></p>
+      <p>Passed BCA /Bachelor Degree in Computer Science Engineering or equilavent degree. </p>
+      <p style="text-align:center;">OR</p>
+      <p>Passed B.Sc./B.Com/B.A with Mathematics ar 10+2 level or at Graduation level (with additional bridge courses as per the norms of the concerned university).<br>
+      Obtained at least 50% marks (45% marks in case of candidates belonging to reserved category) in the qualifying Examinations.</p>
+     
+     <p> For further more information regarding Admissions process or guidelines ,you may feel free to contact at 
+     <a href="">mca.gpgcuna@gmail.com</a>,8278797394,9816175888,7018812304,9459794890</p>
+     <p style="color:red;">Fields marked with * are mandetory to fill.</p>
+    </div>
+     </fieldset>
+     <fieldset>
+  <legend>Personal Information</legend>
+      
+     <form>
+  <label for="candidate-name" class="label1">Candidate's Name: <span style="color: red">*</span></label>
+  <input type="text" id="candidate-name" name="candidate-name" required><br>
+  
+  <label for="father-name" class="label1">Father's Name: <span style="color: red">*</span></label>
+  <input type="text" id="father-name" name="father-name" required><br><br>
+  
+  <label for="dob" class="label1">Date of Birth: <span style="color: red">*</span></label>
+  <input type="date" id="dob" name="dob" required><br><br>
+  
+  <label for="gender" class="label1">Gender: <span style="color: red">*</span></label>
+  <input type="radio" name="gender"  required>Male<br style="display:block;">
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="gender"  required>Female<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="gender" required>Other<br style="display:block;"><br>
+  
+  <label for="contact" class="label1">Contact Number:<span style="color: red">*</span></label>
+  <input type="text" id="contact" name="contact" required><br>
+  
+  <label for="email" class="label1">Email-ID:<span style="color: red">*</span></label>
+  <input type="email" id="email" name="email" required><br><br>
+  
+  <label for="address" class="label1">Address:<span style="color: red">*</span></label><br>
+   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <textarea id="address" name="address" rows="4" cols="30" required></textarea><br><br>
+  
+  <label for="course" class="label1">Course of Admission:<span style="color: red">*</span></label>
+ MCA<br><br>
+  
+  <label for="catergory" class="label1">Category: <span style="color: red">*</span></label>
+  <input type="radio" name="catergory"  required>General<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="catergory"  required>OBC<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="catergory"  required>SC<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="catergory"  required>ST<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="catergory"  required>Other<br style="display:block;"><br>
+  
+  <label for="domicile" class="label1">Himachal Pradesh Ddomicile:<span style="color: red">*</span></label>
+  <input type="radio" name="domicile"  required>Yes<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="domicile"  required>No<br style="display:block;"><br>
+  </fieldset>
+  
+  <fieldset>
+  <legend>Educational Qualifications</legend>
+  
+  <label for="stream" class="label1">Graduation Stream: <span style="color: red">*</span></label>
+  <input type="checkbox"  required >BCA<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="checkbox"  required >B.Sc.(CS)<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="checkbox"  required >B.Sc(IT)<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="checkbox"  required >B.Sc(Non-Medical)<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="checkbox"  required >BA(Mathematics)<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="checkbox"  required >BA(with Mathematics at 10+2 level)<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="checkbox"  required >B.com(with Mathematics at 10+2 level)<br style="display:block;">
+  <br>
+  <br>
+  
+  <label for="result" class="label1">Graduation Result:<span style="color: red">*</span></label>
+  <input type="radio" name="result" >Passed<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="result" >Reappear<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="result" > Result awaited<br style="display:block;">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+  <input type="radio" name="result" >Examination not conduct<br style="display:block;"><br>
+  
+  <label for="result" class="label1">Graduation Percentage/CGPA(if passed):<span style="color: red">*</span></label>
+  <input type="text" value=" "  required><br><br>
+  
+  <!-- add more fields here as needed -->
+  
+  <br>
+ <input type="submit" value="Submit" >
+</form>
+</fieldset>
+    </div>
+  </body>
+</html>
+
