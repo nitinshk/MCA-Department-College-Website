@@ -2,6 +2,7 @@ College Website with complete sections.
 
 This repository contains the source code and development files for the official website of the MCA (Master of Computer Applications) department at Government Postgraduate College, Una. The website is designed to provide information about the department's activities, faculty members, industrial training opportunities, orientation details, placements, workshops, and university results.
 Sections 
+
 1.Home 
 Introduction to the MCA department and its objectives. Important announcements and updates. 
 2.Department
