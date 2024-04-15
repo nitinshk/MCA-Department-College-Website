@@ -30,5 +30,7 @@ Access to recent university examination results. Guidelines on result interpreta
 
 Technologies Used
 Frontend: HTML, CSS, JavaScript, Bootstrap
+
 Backend: PHP
+
 Database: MySQL (for storing faculty and student information)
